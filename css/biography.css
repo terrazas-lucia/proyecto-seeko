@@ -1,0 +1,47 @@
+.description{
+    font-family: 'Roboto', sans-serif;
+    color:  rgb(255, 153, 0);
+    font-size: 20px
+}
+
+.description h2{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1rem;
+    margin-bottom: 30px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.description h3{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.description h4{
+    text-align: left;
+    font-family: 'VT323', monospace;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.ca-content {
+    width: 100%;
+    height: 100%
+}
+
+@media(min-width: 320px) and (max-width: 700px){
+    .biography .container {
+        flex-direction: column;
+    }
+    .biography img {
+        margin-left: 30%;
+    }
+    .biography h4 {
+        font-size: 1.5em;
+    }
+    .description {
+        font-size: 1em;
+    }
+}

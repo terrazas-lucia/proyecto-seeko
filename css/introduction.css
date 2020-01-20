@@ -1,0 +1,119 @@
+.sliderintroduction{
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(0,0,0);
+    margin: 0% 24%;
+}
+
+.sliderintroduction p{
+    font-size: 20px;
+    width: 100%;
+    text-align: right;
+    margin: 0%;
+    color: rgb(255, 153, 0);
+    font-family: 'Rubik Mono One', sans-serif;
+
+
+}
+.introduction .container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background: rgb(0,0,0);
+
+}
+
+.introduction h1{
+    margin: 3% 0%;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 4.3rem;
+    color: rgb(255, 153, 0);
+
+}
+
+.introduction h2{
+    text-align: left;
+    padding-left: 20px;
+    font-size: 60px;
+    background:rgb(255, 153, 0);
+    font-family: 'Staatliches', cursive;
+
+}
+
+.slider{
+    width: 600%;
+    display: flex;
+    position:relative;
+
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+
+.slider button{
+    cursor: pointer;
+    font-size: 35px;
+    width: 5%;
+    height: 5%;
+    position: absolute;
+    border:none;
+    padding: 0;
+    background-color: #ffffff00;
+}
+
+.slider-left {
+    top: 50%;
+}
+
+.slider-right {
+    top: 50%;
+    left: 94%;
+}
+
+/* @media(min-width: 1024px){
+    .sliderintroduction p {
+        margin: 0% 20%;
+        text-align: justify;
+    }
+
+    .slider {
+        margin: 2% 0%;
+    }
+
+    .container-contact100 {
+        min-height: 0!important;
+    }
+} */
+
+@media(min-width: 320px) and (max-width: 1024px){
+    .sliderintroduction {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+    .sliderintroduction p {
+        margin: 0%;
+        width: 100%;
+        text-align: justify;
+        padding-top: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .slider {
+        width: 100%;
+        margin: 0%;
+    }
+    .introduction h1{
+        margin: 2%;
+        font-size: 2rem;
+    }
+    .texto {
+        padding: 2%;
+    }
+    .introduction h2{
+        text-align: center;
+        font-size: 2.5rem;
+        padding:0;
+    }
+}

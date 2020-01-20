@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|VT323|Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|Rubik+Mono+One&display=swap');
+@import url(header.css);
+@import url(members.css);
+@import url(footer.css);
+@import url(banner.css);
+@import url(contact.css);
+@import url(introduction.css);
+@import url(slider.css);
+/* Specify in CSS
+Use the following CSS rules to specify these families:
+font-family: 'VT323', monospace;
+font-family: 'Roboto', sans-serif;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Rubik Mono One', sans-serif;
+*/
+
+*{
+    margin: auto;
+    padding: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(0,0,0);
+}
+
+.container{
+    width: 98%;
+    margin: auto;
+}
+
+.banner{
+    background-color: #ffaf03;
+}
+
+
+.members {
+    margin: 5% 0;
+}
+
+.members  .container h2 {
+    text-align: center;
+    margin: 2% 0;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons h3 {
+    text-align: center;
+}
+
+section{
+    margin-top: auto;
+}
+
+@media(min-width: 1024px){
+    .container{
+        width: 1000px;
+    }
+}
+
+
+.biography {
+    display: none;
+}
+
+.biography .container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.description h3 {
+    text-align: center;
+    margin: 2% 0;
+}
+
+.biography img {
+    padding-top: 50px;
+    width: 40%;
+    margin-right: 3%;
+}
+
+.contact_form{
+    align-content: center;
+}
+

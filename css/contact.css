@@ -1,0 +1,333 @@
+
+/*//////////////////////////////////////////////////////////////////
+[ Contact ]*/
+
+.container-contact100 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+    background: rgb(0,0,0);
+
+}
+
+.wrap-contact100 {
+  width: 500px;
+  background: rgb(0, 0, 0);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 42px 55px 45px 55px;
+}
+
+
+/*------------------------------------------------------------------
+[ Form ]*/
+
+.contact100-form {
+  width: 100%;
+}
+
+.contact100-form-title {
+  display: block;
+  font-family: 'VT323', monospace;
+  font-size: 39px;
+  color: rgb(255, 153, 0);
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 44px;
+}
+
+
+
+/*------------------------------------------------------------------
+[ Input ]*/
+
+.wrap-input100 {
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid #d9d9d9;
+  padding-bottom: 13px;
+  margin-bottom: 27px;
+}
+
+.label-input100 {
+  font-family: 'VT323', monospace;
+  font-size: 20px;
+  color: rgb(255, 153, 0);
+  line-height: 1.5;
+  padding-left: 5px;
+}
+
+.input100 {
+  display: block;
+  width: 100%;
+  background: transparent;
+  font-family: 'VT323', monospace;
+  font-size: 18px;
+  color: rgb(255, 153, 0);
+  line-height: 1.2;
+  padding: 0 5px;
+}
+
+.focus-input100 {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.focus-input100::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+
+  background: #7f7f7f;
+}
+
+
+/*---------------------------------------------*/
+input.input100 {
+  height: 40px;
+}
+
+
+textarea.input100 {
+  min-height: 110px;
+  padding-top: 9px;
+  padding-bottom: 13px;
+}
+
+
+.input100:focus + .focus-input100::before {
+  width: 100%;
+}
+
+.has-val.input100 + .focus-input100::before {
+  width: 100%;
+}
+
+.contact100-form input:required:valid, .contact100-form textarea:required:valid {
+box-shadow: 0 0 5px #5cd053;
+border-color: #28921f;
+}
+
+.contact100-form input:focus:invalid, .contact100-form textarea:focus:invalid {
+box-shadow: 0 0 5px #d45252;
+border-color: #b03535;
+}
+
+/*------------------------------------------------------------------
+[ Button ]*/
+.container-contact100-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 13px;
+  
+}
+
+.wrap-contact100-form-btn {
+  width: 100%;
+  display: block;
+  position: relative;
+  z-index: 1;
+  border-radius: 25px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.contact100-form-bgbtn {
+  position: absolute;
+  z-index: -1;
+  width: 300%;
+  height: 100%;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+
+}
+
+.contact100-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+background: rgb(255, 153, 0);
+
+  width: 100%;
+  height: 50px;
+
+  font-family: 'VT323', monospace;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+}
+
+
+/*------------------------------------------------------------------
+[ Responsive ]*/
+
+@media (max-width: 576px) {
+  .wrap-contact100 {
+    padding: 72px 15px 65px 15px;
+  }
+  .container-contact100 {
+    min-height: 0!important;
+}
+}
+
+
+
+
+
+.contact_form h2{
+    background: none;
+    border-radius: 5px;
+    color: blueviolet;
+    display: block;
+    font-family: 'Roboto', monospace;
+    font-size: 20px;
+    padding: 5px;
+    text-shadow: 1px 1px 1px #CCCCCC;
+    width: 433px;
+    text-align: center;
+}
+
+.contact_form ul {
+    width:600px;
+    list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+
+.contact_form li{
+	padding:12px; 
+	border-bottom:1px solid #eee;
+	position:relative;
+} 
+
+.contact_form label {
+    color: #555555;
+    display: inline-block;
+    float: left;
+    font-family: calibri;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 3px;
+    padding: 3px;
+    width: 90px;
+}
+
+.contact_form input {
+height:20px; 
+width:220px; 
+padding:5px 8px;
+}
+
+.contact_form textarea {
+padding:8px; 
+width:300px;
+}
+
+.contact_form button {
+margin-left:90px;
+}
+
+.contact_form input, .contact_form textarea { 
+border:1px solid #aaa;
+box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+border-radius:2px;
+color: #888;
+font-size: 12px;
+padding-right:30px;
+-moz-transition: padding .25s; 
+-webkit-transition: padding .25s; 
+-o-transition: padding .25s;
+transition: padding .25s;
+}
+
+.contact_form input:focus, .contact_form textarea:focus {
+background: #fff; 
+border:1px solid #555; 
+box-shadow: 0 0 3px #aaa; 
+padding-right:80px;
+}
+
+.contact_form input:required:valid, .contact_form textarea:required:valid {
+box-shadow: 0 0 5px #5cd053;
+border-color: #28921f;
+}
+
+.contact_form input:focus:invalid, .contact_form textarea:focus:invalid {
+box-shadow: 0 0 5px #d45252;
+border-color: #b03535;
+}
+
+button.submit {
+   padding: 9px 17px;
+   font-family: Helvetica,calibri, Arial, sans-serif;
+   font-weight: bold;
+   line-height: 1;
+   color: #444;
+   border: none;
+   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.85);
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#bbb));
+   background-image: -moz-linear-gradient(0% 100% 90deg, #BBBBBB, #FFFFFF);
+   background-color: #fff;
+   border: 1px solid #f1f1f1;
+   border-radius: 10px;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+button.submit:hover {
+	opacity:.55;
+	cursor: pointer; 
+	color: #fff;
+}
+
+button.submit:active {
+	border: 1px solid #222;
+	box-shadow: 0 0 10px 5px #444 inset; 
+}
+
+fieldset{
+	width:330px;
+	border-radius:10px;
+	border:1px solid #eee;
+}
+	
+input[type="radio"]{
+	width:30px;
+	float:left;
+	background: #fff; 
+	border:1px solid #555; 
+	box-shadow: 0 0 3px #aaa; 
+	padding-right:80px;
+}

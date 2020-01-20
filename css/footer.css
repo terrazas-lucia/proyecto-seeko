@@ -1,0 +1,29 @@
+footer .container{
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.copy{
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(255, 153, 0);
+    margin-bottom: 5px;
+}
+
+.socials{
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    
+}
+
+.socials a{
+    text-decoration: none;
+    color: rgb(255, 153, 0);
+}
