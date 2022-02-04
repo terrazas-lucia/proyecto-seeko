@@ -1,3 +1,3 @@
 # proyecto-seeko
-https://proyecto-seeko-vercel.vercel.app/#!
+proyecto-seeko.vercel.app
 Pagina de Seeko Studios
